@@ -1,0 +1,69 @@
+.body{
+    font-family:"FS Meridian Regular", sans-serif;
+
+  background-color:gray;
+}
+.navbar{
+    position: fixed;
+    z-index:1;
+}
+.navbar a{
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: "FS Meridian Regular", sans-serif;
+
+}
+.navbar li{
+margin: 0px 20px;
+}
+.navbar a:hover{
+    color: yellow;
+}
+.navbar-toggler  {
+
+    color: #fff;
+    background-color: #5D70B5 !important;
+    border-color: #5D70B5 !important;
+
+}
+#main-nav{
+    position: fixed;
+    background-color:  #3869d3;
+    width: 100%;
+     height: 100px;
+     position:fixed;
+}
+#main-nav a{
+    color: white;
+}
+#main-nav button{
+    color: white;
+    background-color:rgb(10, 7, 7);
+}
+#item-img{
+    margin-top: 60px;
+}
+#item-img img{
+    margin-left: 25px;
+     
+     }
+
+#hel1{
+    padding-top: 100px;
+    margin-bottom:50px ;
+    
+}
+#hel1 .row{
+    padding-top: 50px;
+}
+#item-des{
+    font-family: "FS Meridian Regular", sans-serif;
+}
+
+@media (max-width: 768px) {
+    nav .navbar-collapse {
+      background-color: grey;
+      padding: 20px;
+    }
+    
+  }  

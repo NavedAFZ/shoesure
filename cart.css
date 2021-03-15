@@ -1,0 +1,83 @@
+.body{
+    font-family:"FS Meridian Regular", sans-serif;
+
+  background-color:gray;
+}
+#main-nav{
+    position: fixed;
+    background-color:  #3869d3;
+    width: 100%;
+     height: 100px;
+     position:fixed;
+}
+#main-nav a{
+    color: white;
+}
+#main-nav button{
+    color: white;
+    background-color:rgb(10, 7, 7);
+}
+.navbar{
+    position: fixed;
+    z-index:1;
+}
+.navbar a{
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: "FS Meridian Regular", sans-serif;
+
+}
+.navbar li{
+margin: 0px 20px;
+}
+.navbar a:hover{
+    color: yellow;
+}
+.navbar-toggler  {
+
+    color: #fff;
+    background-color: #5D70B5 !important;
+    border-color: #5D70B5 !important;
+
+}
+#hel2{
+    padding-top: 120px ;
+     padding-bottom: 50px;
+}
+#hel2 img{
+    height: 100%;
+     width: 100%;
+}
+#hel2 button{
+    width: 100%;
+}
+#hel3 div{
+    padding: 40px;
+}
+#hel4 div{
+    padding: 40px;
+}
+#hel5 div{
+    padding: 40px;
+}
+#item-img img{
+    margin-left: 25px;
+    
+}
+#item-des{
+    font-family: "FS Meridian Regular", sans-serif;
+}
+
+.outer{
+    height: 300px;
+}
+@media (max-width: 768px) {
+    nav .navbar-collapse {
+      background-color: grey;
+      padding: 20px;
+    }
+    #itm-img1 img{
+        width: 80%;
+        height: 250px;
+    }
+  }  

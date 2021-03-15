@@ -1,0 +1,112 @@
+.body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  background-color:#fafafa;
+}
+.navbar{
+    position: fixed;
+    z-index:1;
+}
+.navbar a{
+    font-size: 30px;
+    font-weight: bolder;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}
+.navbar li{
+margin: 0px 20px;
+}
+.navbar a:hover{
+    color: yellow;
+}
+.navbar-toggler  {
+
+    color: #fff;
+    background-color: #5D70B5 !important;
+    border-color: #5D70B5 !important;
+
+}
+#main-nav{
+    position: fixed;
+    background-color:  #3869d3;
+    width: 100%;
+     height: 100px;
+     position:fixed;
+}
+#main-nav a{
+    color: white;
+}
+#main-nav button{
+    color: white;
+    background-color:rgb(10, 7, 7);
+}
+
+.main-body{
+    background-color:  #fafafa; 
+    margin: 0px;
+     padding: 0px;
+}
+.main-body .row{
+    margin:25px;
+      border-radius: 10px;
+}
+.main-body button{
+    width: 15%;
+    padding: 5px;
+}
+
+
+
+
+/**********************************************************************************************/
+.shoe-store img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.shoe-type{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #3869d3;
+   text-align: center;
+    color: white;
+    padding: 30px;
+    font-size: 40px;
+}
+.checked {
+    color: orange;
+  }
+
+  #list-itms{
+   text-align: center;
+   padding-top: 30px;  
+  }
+  .main-body div{
+      background-color: white;
+  }
+  .main-body img{
+      height: 100%;
+  }
+  #list-images{
+      width: 100%;
+      height: 150px;
+  }
+  #outer{
+
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  }
+/***************************************************************************************************/
+@media screen and (max-width: 700px) {
+    .header input{
+      width: 80%;
+    }
+}
+      
+@media (max-width: 768px) {
+    nav .navbar-collapse {
+      background-color: grey;
+      padding: 20px;
+    }
+    
+  }    
